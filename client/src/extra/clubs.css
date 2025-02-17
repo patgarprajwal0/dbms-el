@@ -1,0 +1,64 @@
+.organizationContainer {
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+.organizationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.organizationCard {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.organizationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.organizationCardTitle {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.organizationCardDescription {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 10px 0;
+}
+
+.organizationYear {
+  font-size: 1rem;
+  color: #95a5a6;
+}
+
+.linkList {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.linkList li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.linkList a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkList a:hover {
+  text-decoration: underline;
+  color: #3498db;
+}

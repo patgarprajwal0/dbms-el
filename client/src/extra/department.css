@@ -1,0 +1,81 @@
+.departmentContainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .departmentTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .departmentCard {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .departmentCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .departmentName {
+    font-size: 1.5rem;
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .departmentDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .departmentHead,
+  .departmentContact,
+  .departmentEstablishedYear {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .departmentCourses {
+    font-size: 0.95rem;
+    margin-top: 10px;
+  }
+  
+  .departmentCourses ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #333;
+  }
+  
+  .departmentCourses li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .departmentCard {
+      padding: 10px;
+    }
+  
+    .departmentName {
+      font-size: 1.3rem;
+    }
+  
+    .departmentDescription {
+      font-size: 0.9rem;
+    }
+  }
+  
